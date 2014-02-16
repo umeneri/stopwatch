@@ -1,0 +1,52 @@
+<!doctype html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ja">
+  <head profile="http://gmpg.org/xfn/11">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>stopwatch</title>
+    <style type="text/css">
+     <!--
+     /* @import url("../../js/style/style.css"); */
+     @import url("../../js/style/style2.css");
+     @import url("../../js/style/Hover-master/css/hover.css");
+     @import url("../../js/style/Buttons-master/css/buttons.css");
+     @import url("style.css"); 
+     -->
+    </style>
+    <style type="text/css">
+     .ui-widget {
+       font-family: 'verdana', 'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'Osaka', 'ＭＳ Ｐゴシック', sans-serif;
+       font-size: .9em;
+     }
+    </style>
+    <!-- script -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="stopwatch.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="panel column">
+	<div class="label">StopWatch</div>
+	date:<input type="text" value="0" id="dateText" class="time">
+	time:<input type="text" value="0" id="timeText" class="time">
+	<!-- <div>isDown:<input type="text" value="false" id="isDown"></div> -->
+	<!-- <div>isStopping:<input type="text" value="false" id="isStopping"></div> -->
+	<div class="">
+	  <input type="button" id="progressButton" class="button glow" value="▶">
+	  <input type="button" id="resetButton" class="button pulse" value="リセット">
+	  <input type="button" id="createButton" class="button grow" value="+">
+	</div>
+	<div id="#stamps">
+	  <!-- <input type="button" id="reverseButton" value="反転"> -->
+	  <table id="box-table-a">
+	    <tr>
+	      <!-- <td class="stamp button border-fade">100</td>
+	      <td class="stamp button border-fade">2000</td>
+	      <td class="stamp button border-fade">3000</td> -->
+	    </tr>
+	  </table>
+	</div>
+      </div>
+    </div>
+  </body>
+</html>

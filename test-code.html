@@ -1,0 +1,105 @@
+<!doctype html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ja">
+  <head profile="http://gmpg.org/xfn/11">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>testing javascript code</title>
+    <p>getting styles...</p>
+    <!-- styles -->
+    <!-- <link rel="stylesheet" type="text/css" media="all" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/themes/smoothness/jquery-ui.css"> -->
+    <style type="text/css">
+     <!--
+     /* @import url("../../js/style/style.css"); */
+     @import url("../../js/style/style2.css");
+     @import url("../../js/style/checkbox.css");
+     @import url("../../js/style/Hover-master/css/hover.css");
+     @import url("../../js/style/Buttons-master/css/buttons.css");
+     @import url("style.css");
+     -->
+    </style>
+    <!-- script -->
+    <p>getting scripts...</p>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script> -->
+    <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script> -->
+    <!-- <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">google.load("jquery", "1.5.1");</script> -->
+    <p>getting my scripts...</p>
+    <script type="text/javascript" src="stopwatch.js"></script>
+    <!-- <script type="text/javascript" src="getJsonTest.js"></script> -->
+    <script type="text/javascript" src="v8-arraySort-rev.js"></script>
+    <script type="text/javascript" src="margesort.js"></script>
+    <script type="text/javascript" src="benchmark.js"></script>
+    <!-- <script type="text/javascript" src="reverse.js"></script> -->
+    <!-- <script type="text/javascript" src="convertTest.js"></script> -->
+    <!-- <script type="text/javascript" src="lank-k-search-rev.js"></script> -->
+    <!-- <script type="text/javascript" src="jquery-matome.js"></script> -->
+    <script type="text/javascript">
+     <!--
+     function openwin() {
+       window.open("./stopwatch.html", "", "width=350,height=240");
+     }
+     // -->
+    </script>
+  </head>
+
+  <body>
+    <p>body start</p>
+    <div id="images"></div>
+    <a href="javascript:openwin();">新しいウィンドウ</a>
+    
+    <div class="container">
+      <!-- <div class="panel column"> -->
+      <div class="panel column">
+	<div class="label">StopWatch</div>
+	<div class="panel component">
+	  <div class="label">Time</div>
+	  <div id="dateText">0</div>
+	</div>
+	<!-- <input type="button" id="reverseButton" value="反転"> -->
+	<!-- <div class="label">Time</div> -->
+	<!-- time:<input type="text" value="0" id="timeText" class="time"> -->
+	<!-- <div>isDown:<input type="text" value="false" id="isDown"></div>
+	<div>isStopping:<input type="text" value="false" id="isStopping"></div> -->
+	<div class="panel component">
+	  <div class="label">Button</div>
+	  <input type="button" id="progressButton" class="button glow" value="▶">
+	  <input type="button" id="resetButton" class="button pulse" value="リセット">
+	  <input type="button" id="createButton" class="button grow" value="+">
+	</div>
+	<!-- <div id="#stamps" class="panel "> -->
+	<div class="panel component">
+	  <div class="label">Stamp</div>
+	  <div class="panel">
+ 	    <div class="stamp component button border-fade">1800000</div>
+	    <!-- <div class="entries-category-dropdown-window js-category-dropdown-list " style="display: none;">
+            <ul class="list js-categories-list-for-append">
+	    <li>1</li>
+	    <li>2</li>
+	    <li>3</li>
+	    <li>5</li>
+	    <li>10</li>
+	    <li>20</li>
+	    <li>30</li>
+	    <li>40</li>
+	    <li>50</li>
+	    <li>60</li>
+	    <li class="create-new-category js-create-new-category">
+	    新しいカテゴリーを作成
+	    </li>
+            </ul>
+	    </div> -->
+	    <div class="stamp unit component">min</div>
+	    <label>
+	      <input type="checkbox">
+	      <span>
+		<i></i>
+	      </span>
+	    </label>
+	  </div>
+	</div>
+      </div>
+
+      <div id="timetable"></div>
+
+  </body>
+</html>
